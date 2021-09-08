@@ -18,7 +18,7 @@ public final class CloneCommand extends AddonCommand {
 	
 	@Override
 	public void run(String[] clone) {
-		String message = (ChatFormatting.DARK_GREEN + "[")+(ChatFormatting.GREEN + "rootNET")+(ChatFormatting.DARK_GREEN + "]"+ChatFormatting.WHITE+" ") + "Cloned the player.";
+		String message = (ChatFormatting.DARK_GREEN + "[")+(ChatFormatting.GREEN + "rootNET")+(ChatFormatting.DARK_GREEN + "]"+ChatFormatting.WHITE+" ") + "Cloned the player";
 		Minecraft.getMinecraft().player.sendMessage(new TextComponentString(message));
 		
 		final EntityOtherPlayerMP clonedPlayer;
