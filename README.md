@@ -1,5 +1,5 @@
 # rootnet-playerclone-addon
-Command-Addon for rootNET
+Clone Command-Addon for rootNET
 
 Usage:
 .clone | Clones the player
